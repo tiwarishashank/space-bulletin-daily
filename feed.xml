@@ -8,7 +8,7 @@
   <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 14 Oct 2026 14:00:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 14:02:12 +0000</lastBuildDate>
   <itunes:author>Space Bulletin Daily</itunes:author>
   <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
@@ -18,12 +18,12 @@
   <itunes:type>episodic</itunes:type>
   <item>
     <title>Space Bulletin Daily – Wednesday, October 14, 2026</title>
-    <description>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. NASA plans to roll the partial rocket out to Launch Pad 39B in the coming months for a fueling test, and …</description>
-    <itunes:summary>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. NASA plans to roll the partial rocket out to Launch Pad 39B in the coming months for a fueling test, and …</itunes:summary>
+    <description>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. NASA plans to roll the partial rocket out to Launch Pad 39B in the coming months for a fueling test.</description>
+    <itunes:summary>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. NASA plans to roll the partial rocket out to Launch Pad 39B in the coming months for a fueling test.</itunes:summary>
     <guid isPermaLink="false">space-bulletin-daily-2026-10-14</guid>
     <pubDate>Wed, 14 Oct 2026 06:47:00 -0700</pubDate>
-    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-14.mp3" length="2201539" type="audio/mpeg"/>
-    <itunes:duration>00:03:03</itunes:duration>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-14.mp3" length="2099035" type="audio/mpeg"/>
+    <itunes:duration>00:02:55</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
   </item>
