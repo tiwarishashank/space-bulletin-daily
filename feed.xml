@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>Space Bulletin Daily</title>
+  <link>https://tiwarishashank.github.io/space-bulletin-daily/</link>
+  <atom:link href="https://tiwarishashank.github.io/space-bulletin-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</description>
+  <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
+  <language>en-us</language>
+  <copyright>© 2026 Shashank Tiwari</copyright>
+  <lastBuildDate>Wed, 14 Oct 2026 07:34:00 +0000</lastBuildDate>
+  <itunes:author>Space Bulletin Daily</itunes:author>
+  <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
+  <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
+  <image><url>https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg</url><title>Space Bulletin Daily</title><link>https://tiwarishashank.github.io/space-bulletin-daily/</link></image>
+  <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Space Bulletin Daily – Wednesday, October 14, 2026</title>
+    <description>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. Next, crews will add the systems tunnel and join the core stage to the boosters. NASA plans to roll this …</description>
+    <itunes:summary>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. Next, crews will add the systems tunnel and join the core stage to the boosters. NASA plans to roll this …</itunes:summary>
+    <guid isPermaLink="false">space-bulletin-daily-2026-10-14</guid>
+    <pubDate>Wed, 14 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-14.mp3" length="2092452" type="audio/mpeg"/>
+    <itunes:duration>00:02:54</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>
