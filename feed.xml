@@ -8,7 +8,7 @@
   <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 14 Oct 2026 14:02:12 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:58:15 +0000</lastBuildDate>
   <itunes:author>Space Bulletin Daily</itunes:author>
   <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Space Bulletin Daily – Thursday, October 15, 2026</title>
+    <description>NASA has set a date to explain how it plans to speed up its return to the Moon. The agency says Administrator Jared Isaacman and Artemis leaders will give an update on October 23 at Kennedy Space Center in Florida. NASA says the briefing will cover Artemis Three, which will now send four astronauts to low Earth orbit next year to test systems needed for later landings, and its goal of putting Amer…</description>
+    <itunes:summary>NASA has set a date to explain how it plans to speed up its return to the Moon. The agency says Administrator Jared Isaacman and Artemis leaders will give an update on October 23 at Kennedy Space Center in Florida. NASA says the briefing will cover Artemis Three, which will now send four astronauts to low Earth orbit next year to test systems needed for later landings, and its goal of putting Amer…</itunes:summary>
+    <guid isPermaLink="false">space-bulletin-daily-2026-10-15</guid>
+    <pubDate>Thu, 15 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-15.mp3" length="2020667" type="audio/mpeg"/>
+    <itunes:duration>00:02:48</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Space Bulletin Daily – Wednesday, October 14, 2026</title>
     <description>NASA says work on the rocket for Artemis Three has reached another milestone. According to the agency, teams at Kennedy Space Center in Florida have finished stacking the final solid rocket booster segments on the mobile launcher, and all four RS-25 engines are now installed on the core stage. NASA plans to roll the partial rocket out to Launch Pad 39B in the coming months for a fueling test.</description>

@@ -1,0 +1,15 @@
+This is Space Bulletin Daily. It's Thursday, October 15. I'm your AI-voiced newsreader.
+
+NASA has set a date to explain how it plans to speed up its return to the Moon. The agency says Administrator Jared Isaacman and Artemis leaders will give an update on October 23 at Kennedy Space Center in Florida. NASA says the briefing will cover Artemis Three, which will now send four astronauts to low Earth orbit next year to test systems needed for later landings, and its goal of putting Americans back on the lunar surface by 2028.
+
+Closer to home, Space dot com reports that SpaceX's CRS-35 cargo Dragon is scheduled to dock with the International Space Station this morning, delivering supplies, research and the station's final new solar arrays. And Space dot com reports that Artemis Two astronaut Christina Koch will become NASA's acting deputy chief engineer on November first, meaning all four Artemis Two crew members have now stepped away from active spaceflight duties.
+
+SpaceX also wants to fly Starship far more often from South Texas. Space dot com reports that the company has asked to launch from Starbase up to four hundred fifty-six times a year, up from the twenty-five it is allowed now. The Federal Aviation Administration says it will prepare an environmental impact statement and hold public meetings next month. SpaceX would build up in two phases, starting with up to one hundred launches a year.
+
+Rocket Lab's new rocket will not fly this year. Reuters reports that the company has pushed the first launch of its reusable Neutron rocket into 2027, sending its shares down about six percent in extended trading. Rocket Lab says inspections found small air pockets between carbon fiber layers in a propellant tank dome, and it is now building a replacement.
+
+In Earth observation, a study in the journal Nature puts methane-tracking satellites to the test. Stanford University says researchers staged hundreds of controlled methane releases in the Arizona desert over a year. On clear days, satellites built to find methane detected ninety-two to one hundred percent of the plumes, while general-purpose land imagers caught only twenty-nine to thirty-seven percent. Clouds remained a major problem.
+
+And in startup funding, Canadian company Mission Control Space Services says it has raised ten million Canadian dollars. The Ottawa firm, which builds rovers and autonomy software, says GreenSky Ventures led the equity investment, while Scotiabank provided debt financing. The company says the money will expand its rover production facilities and operations staff so it can take on larger missions.
+
+That's Space Bulletin Daily.
