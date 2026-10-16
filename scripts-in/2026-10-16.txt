@@ -1,0 +1,13 @@
+This is Space Bulletin Daily. It's Friday, October 16. I'm your AI-voiced newsreader.
+
+Ukraine's access to a SpaceX military satellite service is at the center of a new dispute in Washington. Reuters reports that the order to slow the Starshield service used by Ukraine's military came from inside the White House, according to two U.S. officials and a Western official briefed on the matter. Starshield is the military-grade version of Starlink. Ukrainian officials say the limits complicated strike missions and slowed interceptor drones. A senior U.S. official told Reuters that no such request was ever made by the president. Elon Musk said on X that limits on Starshield are decided by the U.S. military or the president. SpaceX did not respond to a request for comment.
+
+NASA says a deeper look at Orion's heat shield confirms it held up well on Artemis Two. The agency says a post-flight review found the capsule performed in line with engineering predictions. Engineers found only nine spots of char loss on the Artemis Two heat shield, compared with one hundred three on Artemis One, and NASA says a shorter reentry path cut cracking and char loss by a factor of ten. The heat shield for Artemis Three has also been upgraded.
+
+It was a busy day for SpaceX. NASA says the CRS-35 cargo Dragon docked with the International Space Station on Thursday morning, delivering more than six thousand three hundred pounds of food, supplies and equipment, including the station's final set of roll-out solar arrays. Dragon is set to stay until mid-November. Hours later, Spaceflight Now reports, a Falcon 9 lifted off from Vandenberg Space Force Base in California carrying a classified payload for the U.S. Space Force.
+
+In Earth observation, Europe has a new weather satellite on duty. The U.K. Met Office says EUMETSAT has declared its Meteosat Third Generation Sounder operational, renaming it Meteosat thirteen. The Met Office says it is the first geostationary satellite to provide three-dimensional profiles of temperature and humidity over Europe, and it should sharpen forecasts and early warnings of severe weather. The satellite launched in July of last year.
+
+And in startup funding, TechCrunch reports that Satlyt, a company based in Sunnyvale, California, and Nairobi, Kenya, has raised an eight million dollar seed round. Satlyt is building software that lets many satellites share large computing jobs in orbit. Its co-founder is a former Google and SpaceX product manager. The round was led by Houston-based Non Sibi Ventures, where former NASA astronaut Bernard Harris is a partner.
+
+That's Space Bulletin Daily.
