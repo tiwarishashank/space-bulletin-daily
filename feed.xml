@@ -8,7 +8,7 @@
   <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Fri, 16 Oct 2026 14:02:31 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 13:56:09 +0000</lastBuildDate>
   <itunes:author>Space Bulletin Daily</itunes:author>
   <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Space Bulletin Daily – Saturday, October 17, 2026</title>
+    <description>NASA will lay out its updated Moon plans next week. The agency says Administrator Jared Isaacman will lead a briefing at Kennedy Space Center on Friday, October 23, on its push to return American astronauts to the lunar surface by 2028. It will include details on Artemis Three, which NASA says will send four astronauts to low Earth orbit next year to test systems needed for future landings. Hardwa…</description>
+    <itunes:summary>NASA will lay out its updated Moon plans next week. The agency says Administrator Jared Isaacman will lead a briefing at Kennedy Space Center on Friday, October 23, on its push to return American astronauts to the lunar surface by 2028. It will include details on Artemis Three, which NASA says will send four astronauts to low Earth orbit next year to test systems needed for future landings. Hardwa…</itunes:summary>
+    <guid isPermaLink="false">space-bulletin-daily-2026-10-17</guid>
+    <pubDate>Sat, 17 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-17.mp3" length="1988693" type="audio/mpeg"/>
+    <itunes:duration>00:02:46</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Space Bulletin Daily – Friday, October 16, 2026</title>
     <description>Ukraine&#x27;s access to a SpaceX military satellite service is at the center of a new dispute in Washington. Reuters reports that the order to slow the Starshield service used by Ukraine&#x27;s military came from inside the White House, according to two U.S. officials and a Western official briefed on the matter. Starshield is the military-grade version of Starlink. Ukrainian officials say the limits compl…</description>

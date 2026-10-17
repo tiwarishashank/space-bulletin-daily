@@ -1,0 +1,13 @@
+This is Space Bulletin Daily. It's Saturday, October 17. I'm your AI-voiced newsreader.
+
+NASA will lay out its updated Moon plans next week. The agency says Administrator Jared Isaacman will lead a briefing at Kennedy Space Center on Friday, October 23, on its push to return American astronauts to the lunar surface by 2028. It will include details on Artemis Three, which NASA says will send four astronauts to low Earth orbit next year to test systems needed for future landings. Hardware is coming together. NASA says all four RS-25 engines are now installed on the Artemis Three core stage, and the rocket will soon roll to Launch Pad 39B for a fueling test.
+
+SpaceX wants to fly Starship far more often from South Texas. SpaceNews reports the company is seeking approval for a sharp increase in launches from Starbase. The FAA says it will prepare an environmental impact statement on a plan for up to four hundred fifty-six launches a year, phased in from an initial one hundred. SpaceX is currently allowed twenty-five. Starship reached orbit for the first time on its most recent flight, on September 28. The FAA will hold public meetings next month.
+
+Blue Origin is also planning for a much higher launch rate. Reuters reports the company is targeting multiple New Glenn flights per week by the end of the decade. In a company blog post, Blue Origin said it will add more launch pads on Florida's Space Coast, and that a three hundred thirty million dollar factory expansion will allow production of up to one hundred fifty upper stages a year. New Glenn has been grounded since it exploded on its launch pad in May, and Reuters says it is expected to return to flight early next year.
+
+In Earth observation, Yonhap News Agency reports that a new South Korean satellite constellation is working. The Korea AeroSpace Administration says five NEONSAT microsatellites, launched October 7 on the domestically built Nuri rocket, captured and sent back their first images about fourteen and a half hours after liftoff. The constellation is designed to monitor the Korean Peninsula far more often than a single large satellite could.
+
+And in startup funding, two defense-focused companies closed Series A rounds. Seattle-based Kapta Space says it raised twenty-four million dollars to produce radar payloads that track moving targets, under multiple classified contracts. And Fortastra, which builds maneuverable spacecraft for on-orbit security, announced a thirty million dollar round led by First In, with Upfront Ventures and Space Capital participating.
+
+That's Space Bulletin Daily.
