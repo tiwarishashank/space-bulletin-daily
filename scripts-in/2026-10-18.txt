@@ -1,0 +1,15 @@
+This is Space Bulletin Daily. It's Sunday, October 18. I'm your AI-voiced newsreader.
+
+A Russian satellite has moved in close to an American-owned commercial satellite. Axios reports that the tracking company LeoLabs says Russia's Cosmos twenty-six twelve appears to be making a deliberate approach toward ICEYE-X36, a radar imaging satellite tied to ICEYE US. As of Friday afternoon, the two were roughly three miles apart, after being more than two hundred miles apart a day earlier. ICEYE, founded in Finland, has worked with Ukraine's Ministry of Defence. LeoLabs says the intent remains uncertain, but the behavior warrants continued monitoring. The Defense Department and ICEYE declined to comment.
+
+Japan is about to launch a mission to bring back a piece of a Martian moon. The Japan Aerospace Exploration Agency says its Martian Moons eXploration spacecraft, known as MMX, will lift off on an H3 rocket from Tanegashima Space Center early Tuesday morning Japan time, which is Monday afternoon in the United States. The European Space Agency says MMX will be the first mission to collect a sample from Phobos and return it to Earth, with the capsule landing in Australia in 2031.
+
+NASA's search for commercial space stations to follow the International Space Station is moving ahead. NASA issued its final request for proposals on October 9. Proposals are due December 8, and awards are expected in April. SpaceNews reports that the chief executive of Axiom Space says the request addresses concerns raised by industry, but that NASA still needs to do more to reduce its requirements in general.
+
+SpaceX is targeting Monday morning for its Bandwagon-5 rideshare mission on a Falcon 9 from Cape Canaveral. The launch tracker Next Spaceflight says it carries thirty-two payloads, including a second demonstration of SpaceX's Starfall reentry capsule.
+
+In defense news, SpaceNews reports that the U.S. Space Force is preparing to hire contractors to support worldwide deployments of its Meadowlands satellite jammers. A market survey seeks support for a fleet of at least thirty-two of the ground-based systems, with capacity for as many as fifty-six. Meadowlands, built by L3Harris, is used to disrupt adversaries' satellite communications.
+
+And in Earth observation, Planet Labs says the European Space Agency has picked its subsidiary Sinergise to build a disaster monitoring system for Slovenia. The twelve-month pilot will automatically scan Copernicus and PlanetScope imagery for signs of trouble, then order high-resolution pictures from Planet's Pelican satellites for emergency responders within hours. It will start with wildfires, and could later track floods and landslides.
+
+That's Space Bulletin Daily.
