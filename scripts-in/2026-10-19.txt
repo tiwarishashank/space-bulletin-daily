@@ -1,0 +1,15 @@
+This is Space Bulletin Daily. It's Monday, October 19. I'm your AI-voiced newsreader.
+
+Japan's mission to bring back a piece of a Martian moon is set to launch today. The Japan Aerospace Exploration Agency says its Martian Moons eXploration spacecraft, known as MMX, will lift off on an H3 rocket from Tanegashima Space Center at three forty-one this afternoon Eastern time, which is twelve forty-one Pacific. SpacePolicyOnline reports that two of the spacecraft's thirteen science instruments come from NASA, including a sampler built by Honeybee Robotics, part of Blue Origin. MMX is due to reach Mars in August 2027 and return its Phobos samples to Earth in 2031.
+
+NASA says detailed studies confirm that the Orion heat shield on Artemis Two performed as expected. The agency says a shorter reentry path cut cracking and char loss by a factor of ten compared with Artemis One. Engineers found nine spots of char loss, compared with one hundred three on the earlier flight. SpacePolicyOnline reports that NASA Administrator Jared Isaacman will give an update on Artemis Three on Friday. Isaacman indicated last month that the mission was about ninety days behind schedule.
+
+A new government watchdog report warns of a possible gap in weather satellite coverage. The Government Accountability Office says NOAA cut its next generation geostationary program, called GeoXO, from six satellites to four, lowering its projected cost from nineteen point six billion dollars to thirteen billion. If the first GeoXO satellite launches as expected in 2032, the current spare could reach the end of its life months before the new satellite is fully operational. GAO says the program has not yet completed an independent cost estimate. NOAA concurred with the report's recommendations.
+
+SpaceX wants to fly Starship far more often from Texas. Space dot com reports the company has asked the Federal Aviation Administration for up to four hundred fifty-six launches a year from Starbase, up from the twenty-five now allowed. The FAA has begun an environmental review and will hold public meetings next month.
+
+SpaceX has also moved its Bandwagon-5 rideshare launch from this morning to Tuesday, with a window opening at six thirty a.m. Eastern at Cape Canaveral. The Falcon 9 carries thirty-two payloads, including SpaceX's Starfall reentry capsule.
+
+And in startup news, Payload reports that Palo Alto-based EraDrive has won a thirteen million dollar Defense Department award. Under it, the Space Force will buy the company's vision-based modules that help satellites navigate and operate on their own, without relying on GPS.
+
+That's Space Bulletin Daily.
