@@ -8,7 +8,7 @@
   <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 20 Oct 2026 13:58:14 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 13:59:07 +0000</lastBuildDate>
   <itunes:author>Space Bulletin Daily</itunes:author>
   <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
@@ -22,8 +22,8 @@
     <itunes:summary>Japan&#x27;s mission to bring back a piece of a Martian moon is on its way. The Japan Aerospace Exploration Agency says its H3 rocket launched the Martian Moons eXploration spacecraft, known as MMX, from Tanegashima Space Center at three forty-one yesterday afternoon Eastern time. JAXA says the rocket flew as planned, and the spacecraft separated about seventy-one minutes after liftoff and was placed i…</itunes:summary>
     <guid isPermaLink="false">space-bulletin-daily-2026-10-20</guid>
     <pubDate>Tue, 20 Oct 2026 06:47:00 -0700</pubDate>
-    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-20.mp3" length="2190881" type="audio/mpeg"/>
-    <itunes:duration>00:03:03</itunes:duration>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-20.mp3" length="2093079" type="audio/mpeg"/>
+    <itunes:duration>00:02:54</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
   </item>
