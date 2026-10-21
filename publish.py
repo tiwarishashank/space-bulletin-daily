@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish a Space Bulletin Daily episode. Usage: python3 publish.py SCRIPT.txt [--date YYYY-MM-DD] [--no-push]"""
+"""Publish a Space Bulletin Weekly episode (weekly, ~5 min, Saturday mornings). Repo/feed URL keep the original space-bulletin-daily name. Usage: python3 publish.py SCRIPT.txt [--date YYYY-MM-DD] [--no-push]"""
 import os,sys,re,json,time,html,shutil,subprocess,argparse,datetime,tempfile,urllib.request,urllib.error
 from email.utils import format_datetime
 from zoneinfo import ZoneInfo
@@ -8,9 +8,11 @@ BASE="https://tiwarishashank.github.io/space-bulletin-daily/"
 ENDPOINT="https://westus2.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICE=os.environ.get("SPACE_VOICE","en-US-Ava:DragonHDLatestNeural")
 KEEP=60
-TITLE="Space Bulletin Daily"
-AUTHOR="Space Bulletin Daily"
-DESC=("A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. "
+TITLE="Space Bulletin Weekly"
+AUTHOR="Space Bulletin Weekly"
+SUBTITLE="The week in space news, in about five minutes, every Saturday morning."
+DESC=("Space Bulletin Weekly is a roughly five-minute roundup of the week's most important space news, published every Saturday morning. "
+      "Each edition covers NASA and the Artemis program, SpaceX, Earth observation, major space deals and funding, and space-tech startups. "
       "Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.")
 def sh(*a,**k): return subprocess.run(a,check=True,cwd=REPO,**k)
 def ensure_ffmpeg():
@@ -32,7 +34,7 @@ def tts(text_ssml,out):
     for i in range(6):
         req=urllib.request.Request(ENDPOINT,data=text_ssml.encode(),method="POST",headers={
             "Ocp-Apim-Subscription-Key":key,"Content-Type":"application/ssml+xml",
-            "X-Microsoft-OutputFormat":"audio-24khz-96kbitrate-mono-mp3","User-Agent":"space-bulletin-daily"})
+            "X-Microsoft-OutputFormat":"audio-24khz-96kbitrate-mono-mp3","User-Agent":"space-bulletin-weekly"})
         try:
             with urllib.request.urlopen(req,timeout=120) as r: open(out,"wb").write(r.read()); return
         except urllib.error.HTTPError as e:
@@ -45,7 +47,8 @@ def duration(p):
     return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).strip())
 JINGLE=os.path.join(REPO,"jingle.mp3")
 OVERLAP=0.3
-MAX_SEC=178
+MIN_SEC=280  # 4:40
+MAX_SEC=315  # 5:15
 def add_jingle(voice,jingle,out,overlap=OVERLAP):
     """Prepend jingle with ~overlap s crossfade into the voice, then loudness-normalize to -16 LUFS."""
     subprocess.run(["ffmpeg","-y","-loglevel","error","-i",jingle,"-i",voice,"-filter_complex",
@@ -70,20 +73,22 @@ def build_feed(eps):
     <itunes:explicit>false</itunes:explicit>
   </item>""")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>{x(TITLE)}</title>
   <link>{BASE}</link>
   <atom:link href="{BASE}feed.xml" rel="self" type="application/rss+xml"/>
   <description>{x(DESC)}</description>
   <itunes:summary>{x(DESC)}</itunes:summary>
+  <itunes:subtitle>{x(SUBTITLE)}</itunes:subtitle>
+  <podcast:updateFrequency rrule="FREQ=WEEKLY;BYDAY=SA">Weekly</podcast:updateFrequency>
   <language>en-us</language>
   <copyright>© {datetime.date.today().year} Shashank Tiwari</copyright>
   <lastBuildDate>{now}</lastBuildDate>
   <itunes:author>{x(AUTHOR)}</itunes:author>
   <itunes:owner><itunes:name>{x(AUTHOR)}</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
-  <itunes:image href="{BASE}cover-v1.jpg"/>
-  <image><url>{BASE}cover-v1.jpg</url><title>{x(TITLE)}</title><link>{BASE}</link></image>
+  <itunes:image href="{BASE}cover-weekly.jpg"/>
+  <image><url>{BASE}cover-weekly.jpg</url><title>{x(TITLE)}</title><link>{BASE}</link></image>
   <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
@@ -128,9 +133,10 @@ def main():
         if os.path.exists(JINGLE):
             v=f"{td}/voice.mp3"; shutil.move(mp3,v); add_jingle(v,JINGLE,mp3); print("jingle added")
     dur=duration(mp3)
-    if dur>MAX_SEC:
+    if dur<MIN_SEC or dur>MAX_SEC:
         bar="!"*70
-        print(f"{bar}\nWARNING: episode is {dur:.1f}s ({hms(dur)}), over the {MAX_SEC}s guard; trim the script next time (target 2:45-2:55, never over 3:00)\n{bar}",file=sys.stderr)
+        how="trim" if dur>MAX_SEC else "lengthen"
+        print(f"{bar}\nWARNING: episode is {dur:.1f}s ({hms(dur)}), outside the 4:40-5:15 window; {how} the script next time (target about 5:00)\n{bar}",file=sys.stderr)
     else: print(f"duration {dur:.1f}s")
     sp=f"{REPO}/scripts/{date}.txt"
     if os.path.abspath(a.script)!=os.path.abspath(sp): shutil.copy(a.script,sp)
@@ -139,7 +145,7 @@ def main():
     eps=[e for e in eps if e["date"]!=date]
     pub=datetime.datetime.combine(d,datetime.time(6,47),ZoneInfo("America/Los_Angeles"))
     summary=paras[1] if len(paras)>1 else paras[0]
-    eps.append({"date":date,"title":f"Space Bulletin Daily – {d.strftime('%A, %B')} {d.day}, {d.year}",
+    eps.append({"date":date,"title":f"Space Bulletin Weekly – {d.strftime('%A, %B')} {d.day}, {d.year}",
         "description":(summary[:400]+("…" if len(summary)>400 else "")),
         "pubDate":format_datetime(pub),"length":os.path.getsize(mp3),"duration":hms(duration(mp3))})
     eps.sort(key=lambda e:e["date"],reverse=True)

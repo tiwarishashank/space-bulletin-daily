@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
-  <title>Space Bulletin Daily</title>
+  <title>Space Bulletin Weekly</title>
   <link>https://tiwarishashank.github.io/space-bulletin-daily/</link>
   <atom:link href="https://tiwarishashank.github.io/space-bulletin-daily/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</description>
-  <itunes:summary>A daily space news bulletin in under three minutes: NASA and Artemis, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
+  <description>Space Bulletin Weekly is a roughly five-minute roundup of the week&#x27;s most important space news, published every Saturday morning. Each edition covers NASA and the Artemis program, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</description>
+  <itunes:summary>Space Bulletin Weekly is a roughly five-minute roundup of the week&#x27;s most important space news, published every Saturday morning. Each edition covers NASA and the Artemis program, SpaceX, Earth observation, major space deals and funding, and space-tech startups. Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.</itunes:summary>
+  <itunes:subtitle>The week in space news, in about five minutes, every Saturday morning.</itunes:subtitle>
+  <podcast:updateFrequency rrule="FREQ=WEEKLY;BYDAY=SA">Weekly</podcast:updateFrequency>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 20 Oct 2026 13:59:07 +0000</lastBuildDate>
-  <itunes:author>Space Bulletin Daily</itunes:author>
-  <itunes:owner><itunes:name>Space Bulletin Daily</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
-  <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg"/>
-  <image><url>https://tiwarishashank.github.io/space-bulletin-daily/cover-v1.jpg</url><title>Space Bulletin Daily</title><link>https://tiwarishashank.github.io/space-bulletin-daily/</link></image>
+  <lastBuildDate>Wed, 21 Oct 2026 03:55:46 +0000</lastBuildDate>
+  <itunes:author>Space Bulletin Weekly</itunes:author>
+  <itunes:owner><itunes:name>Space Bulletin Weekly</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
+  <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-weekly.jpg"/>
+  <image><url>https://tiwarishashank.github.io/space-bulletin-daily/cover-weekly.jpg</url><title>Space Bulletin Weekly</title><link>https://tiwarishashank.github.io/space-bulletin-daily/</link></image>
   <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
