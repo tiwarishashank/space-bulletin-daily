@@ -14,6 +14,16 @@ SUBTITLE="The week in space news, in about five minutes, every Saturday morning.
 DESC=("Space Bulletin Weekly is a roughly five-minute roundup of the week's most important space news, published every Saturday morning. "
       "Each edition covers NASA and the Artemis program, SpaceX, Earth observation, major space deals and funding, and space-tech startups. "
       "Read by an AI-voiced newsreader (synthetic voice); stories are researched from published sources and checked by an AI assistant.")
+ORD=["","first","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth","eleventh","twelfth","thirteenth","fourteenth","fifteenth","sixteenth","seventeenth","eighteenth","nineteenth","twentieth","twenty-first","twenty-second","twenty-third","twenty-fourth","twenty-fifth","twenty-sixth","twenty-seventh","twenty-eighth","twenty-ninth","thirtieth","thirty-first"]
+MONTHS={"jan":"January","feb":"February","mar":"March","apr":"April","may":"May","jun":"June","jul":"July","aug":"August","sep":"September","sept":"September","oct":"October","nov":"November","dec":"December"}
+def speak_dates(t):
+    """Spell dates out for the voice: 'Oct. 20' / 'October 20th' -> 'October twentieth' (avoids the voice reading '20.' as a decimal)."""
+    pat=r"\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+(\d{1,2})(?:st|nd|rd|th)?\b"
+    def f(m):
+        n=int(m.group(2))
+        if not 1<=n<=31: return m.group(0)
+        return MONTHS[m.group(1).lower()[:4] if m.group(1).lower().startswith("sept") else m.group(1).lower()[:3]]+" "+ORD[n]
+    return re.sub(pat,f,t)
 def sh(*a,**k): return subprocess.run(a,check=True,cwd=REPO,**k)
 def ensure_ffmpeg():
     if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
@@ -120,6 +130,7 @@ def main():
     text=open(a.script,encoding="utf-8").read()
     paras=[re.sub(r"\s+"," ",p).strip() for p in re.split(r"\n\s*\n",text) if p.strip()]
     if len(paras)<=1: paras=[l.strip() for l in text.splitlines() if l.strip()]
+    paras=[speak_dates(p) for p in paras]
     os.makedirs(f"{REPO}/episodes",exist_ok=True); os.makedirs(f"{REPO}/scripts",exist_ok=True)
     mp3=f"{REPO}/episodes/{date}.mp3"
     with tempfile.TemporaryDirectory() as td:
