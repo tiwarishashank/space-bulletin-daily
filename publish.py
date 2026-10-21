@@ -57,13 +57,15 @@ def duration(p):
     return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).strip())
 JINGLE=os.path.join(REPO,"jingle.mp3")
 OVERLAP=0.3
+OUTRO_GAP=0.6
 MIN_SEC=280  # 4:40
 MAX_SEC=315  # 5:15
 def add_jingle(voice,jingle,out,overlap=OVERLAP):
-    """Prepend jingle with ~overlap s crossfade into the voice, then loudness-normalize to -16 LUFS."""
+    """Jingle at the start (crossfaded into the voice) and again at the end after a short pause; loudness-normalize to -16 LUFS."""
     subprocess.run(["ffmpeg","-y","-loglevel","error","-i",jingle,"-i",voice,"-filter_complex",
-        f"[0:a]aresample=44100,aformat=channel_layouts=mono[j];[1:a]aresample=44100,aformat=channel_layouts=mono[v];"
-        f"[j][v]acrossfade=d={overlap}:c1=tri:c2=tri,loudnorm=I=-16:TP=-1.5:LRA=11[o]",
+        f"[0:a]aresample=44100,aformat=channel_layouts=mono,asplit=2[j][j2];[1:a]aresample=44100,aformat=channel_layouts=mono[v];"
+        f"[j][v]acrossfade=d={overlap}:c1=tri:c2=tri[a];anullsrc=r=44100:cl=mono,atrim=0:{OUTRO_GAP}[s];"
+        f"[a][s][j2]concat=n=3:v=0:a=1,loudnorm=I=-16:TP=-1.5:LRA=11[o]",
         "-map","[o]","-ar","44100","-ac","1","-b:a","96k",out],check=True)
 def hms(s): s=int(round(s)); return f"{s//3600:02d}:{s%3600//60:02d}:{s%60:02d}"
 def x(s): return html.escape(s,quote=True)
