@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 REPO=os.path.dirname(os.path.abspath(__file__))
 BASE="https://tiwarishashank.github.io/space-bulletin-daily/"
 ENDPOINT="https://westus2.tts.speech.microsoft.com/cognitiveservices/v1"
-VOICE=os.environ.get("SPACE_VOICE","en-US-Ava:DragonHDLatestNeural")
+VOICE=os.environ.get("SPACE_VOICE","en-US-Nova:DragonHDLatestNeural")
 KEEP=60
 TITLE="Space Bulletin Weekly"
 AUTHOR="Space Bulletin Weekly"
