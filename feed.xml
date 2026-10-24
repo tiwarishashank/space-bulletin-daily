@@ -10,7 +10,7 @@
   <podcast:updateFrequency rrule="FREQ=WEEKLY;BYDAY=SA">Weekly</podcast:updateFrequency>
   <language>en-us</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 21 Oct 2026 03:55:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:56:26 +0000</lastBuildDate>
   <itunes:author>Space Bulletin Weekly</itunes:author>
   <itunes:owner><itunes:name>Space Bulletin Weekly</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/space-bulletin-daily/cover-weekly.jpg"/>
@@ -18,6 +18,17 @@
   <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Space Bulletin Weekly – Saturday, October 24, 2026</title>
+    <description>NASA has laid out its most detailed plan yet for getting astronauts back to the Moon. At a news conference at Kennedy Space Center on Friday, Administrator Jared Isaacman said the agency is still targeting Artemis Three for the summer of 2027, and Artemis Four, the first crewed landing, for 2028. NASA says Artemis Three will send NASA astronauts Randy Bresnik, Frank Rubio and Andre Douglas, along …</description>
+    <itunes:summary>NASA has laid out its most detailed plan yet for getting astronauts back to the Moon. At a news conference at Kennedy Space Center on Friday, Administrator Jared Isaacman said the agency is still targeting Artemis Three for the summer of 2027, and Artemis Four, the first crewed landing, for 2028. NASA says Artemis Three will send NASA astronauts Randy Bresnik, Frank Rubio and Andre Douglas, along …</itunes:summary>
+    <guid isPermaLink="false">space-bulletin-daily-2026-10-24</guid>
+    <pubDate>Sat, 24 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/space-bulletin-daily/episodes/2026-10-24.mp3" length="3504318" type="audio/mpeg"/>
+    <itunes:duration>00:04:52</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Space Bulletin Daily – Tuesday, October 20, 2026</title>
     <description>Japan&#x27;s mission to bring back a piece of a Martian moon is on its way. The Japan Aerospace Exploration Agency says its H3 rocket launched the Martian Moons eXploration spacecraft, known as MMX, from Tanegashima Space Center at three forty-one yesterday afternoon Eastern time. JAXA says the rocket flew as planned, and the spacecraft separated about seventy-one minutes after liftoff and was placed i…</description>
