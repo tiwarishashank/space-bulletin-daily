@@ -35,10 +35,23 @@ def chunks(paras,limit=5000):
         cur.append(p)
     if cur: out.append(cur)
     return out
+# Shared pronunciation list (one list for both shows), kept in the India News Today repo.
+PRON_FILE="/workspace/india-news-now/pronunciations.json"
+def pronounce(t):
+    """Wrap words listed in pronunciations.json in <phoneme> tags (DragonHD voices honor IPA phonemes)."""
+    if not os.path.exists(PRON_FILE): return t
+    for r in json.load(open(PRON_FILE,encoding="utf-8")).get("rules",[]):
+        after={w.lower() for w in r.get("skip_after",[])}; before={w.lower() for w in r.get("skip_before",[])}
+        def f(m):
+            prev=re.findall(r"[A-Za-z']+",t[:m.start()][-30:]); nxt=re.findall(r"[A-Za-z']+",t[m.end():m.end()+30])
+            if (prev and prev[-1].lower() in after) or (nxt and nxt[0].lower() in before): return m.group(0)
+            return f'<phoneme alphabet="ipa" ph="{r["ipa"]}">{m.group(0)}</phoneme>'
+        t=re.sub(rf"(?<![<\w]){re.escape(r['word'])}\b",f,t,flags=re.I)
+    return t
 def ssml(paras):
-    body='<break time="700ms"/>'.join(html.escape(p,quote=False) for p in paras)
+    body='<break time="700ms"/>'.join(pronounce(html.escape(p,quote=False)) for p in paras)
     return ('<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
-            f'<voice name="{VOICE}">{body}</voice></speak>')
+            f'<voice name="{VOICE}" parameters="enhancePronunciation=true">{body}</voice></speak>')
 def tts(text_ssml,out):
     key=os.environ["AZURE_SPEECH_KEY"]
     for i in range(6):
